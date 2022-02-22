@@ -4,7 +4,7 @@ install:
   - pip install codecov
 
 script:
-  - coverage run tests.py
+  - coverage run bfs.py
   - curl -Os https://uploader.codecov.io/latest/linux/codecov 
   - chmod +x codecov 
   - ./codecov
